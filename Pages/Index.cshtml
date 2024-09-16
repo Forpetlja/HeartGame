@@ -1,0 +1,37 @@
+﻿@page
+@model HeartGame.Pages.IndexModel
+@{
+    ViewData["Title"] = "Follow My Heart";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <h1>Follow My Heart</h1>
+    <div id="game-container">
+        <div class="heart" id="heart1" style="top: 50px; left: 100px;"></div>
+        <div class="heart" id="heart2" style="top: 200px; left: 300px;"></div>
+        <div class="heart" id="heart3" style="top: 350px; left: 150px;"></div>
+        <div class="heart" id="heart4" style="top: 100px; left: 250px;"></div>
+        <div class="heart" id="heart5" style="top: 300px; left: 400px;"></div>
+        <div class="heart" id="heart6" style="top: 400px; left: 50px;"></div>
+    </div>
+    <p id="message">Catch all the hearts!</p>
+
+    <script src="~/js/site.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
