@@ -26,3 +26,6 @@ Heart Game is a simple, interactive web-based game where players catch six blue 
 4. **Run the project**:
    - Press `F5` or click on the run button in Visual Studio.
    - The game will launch in your browser at `http://localhost:5000`.
+  
+5. 
+💙s
